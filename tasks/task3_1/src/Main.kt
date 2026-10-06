@@ -3,10 +3,15 @@
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
-    if (args.size != 1) {
-        println("Error: filename required as sole argument")
+    if (args.size !=2) {
+        println("Error: filename required as two argument must be passed to script via termninal")
         exitProcess(1)
     }
+    else(
+        println("Two arguments passed")
+    )
+
+
 
     // required argument available here, as args[0]
 }
