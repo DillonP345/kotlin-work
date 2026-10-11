@@ -21,10 +21,11 @@ fun main(args: Array<String>) {
         var temp = x
         var fahrenheit = 0.0
         println("your minimum value is $x, your maximum value is $y, and it increments by $z ")
+        println("%7s  %10s".format("Celsius", "Fahrenheit"))
         while (temp <= y){
             temp += z
             fahrenheit = (temp * 1.8) + 32
-            println("your new value is $temp after this iteration of the loop.")
+            println("%7.1f  %10.1f".format(temp, fahrenheit))
         }
     }
 }
