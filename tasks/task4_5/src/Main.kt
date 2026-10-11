@@ -6,6 +6,7 @@ fun main(args: Array<String>) {
     // Add your code here
     if (args.size != 1){
         println(" ERROR: needs to be 1 argument passed into script from command line")
+        exitProcess(1)
     }
     else{
         var total = 0
