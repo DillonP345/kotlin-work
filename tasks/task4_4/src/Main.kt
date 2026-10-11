@@ -18,5 +18,13 @@ fun main(args: Array<String>) {
         val x = args[0].toFloat()
         val y = args[1].toFloat()
         val z = args[2].toFloat()
+        var temp = x
+        var fahrenheit = 0.0
+        println("your minimum value is $x, your maximum value is $y, and it increments by $z ")
+        while (temp <= y){
+            temp += z
+            fahrenheit = (temp * 1.8) + 32
+            println("your new value is $temp after this iteration of the loop.")
+        }
     }
 }
