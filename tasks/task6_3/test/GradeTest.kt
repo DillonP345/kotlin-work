@@ -5,4 +5,5 @@ import kotlin.test.assertEquals
 
 class GradeTest {
     // Write tests here
+
 }
